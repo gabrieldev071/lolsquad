@@ -20,11 +20,13 @@ code {
 /* Variáveis */
 
 :root {
-  --whitecolor1: #F0F0F0;
-  --goldcolor2: #C8AA6E;
-  --goldcolorforms: #937341;
+  --textocolorprimaria: #F0F0F0;
+  --textocorlosegundaria: #C8AA6E;
+  --textocolorterceira: #937341;
+  --textocolordark: #010a13;
+  
   --redcolor: #F12B15;
   --bordercolor: #091428;;
-  --backgroundcolor: #091428;
-  --backgroundcolorRed: #D13639;
+  --backgroundcolorPrimaio: #010a13;
+  --backgroundcolorSegundario: hsl(359, 63%, 52%);
 }

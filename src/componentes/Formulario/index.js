@@ -13,6 +13,7 @@ const Formulario = (props) => {
   const [campeao, setCampeao] = useState('')
   const [imagem, setImagem] = useState('')
   const [lane, setLane] = useState('')
+ 
 
   /* Prevenindo comportamento padrão */
 
@@ -24,10 +25,10 @@ const Formulario = (props) => {
         imagem,
         lane
     })
-    setNome('')
+/*     setNome('')
     setCampeao('')
     setImagem('')
-    setLane('')
+    setLane('') */
 }
 
 
@@ -37,8 +38,8 @@ const Formulario = (props) => {
         <h2>Preencha os dados para criar o card do jogador</h2>
         <CampoTexto
           obrigatorio={true}
-          label="Digite seu NickName:"
-          placeholder="Ex:TenuousPluto"
+          label="Digite seu Nick:"
+          placeholder="Ex: ZtsuGh0st"
           valor={nome}
           aoAlterado={valor => setNome(valor)}
         />

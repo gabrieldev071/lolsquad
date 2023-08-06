@@ -8,7 +8,7 @@
     display: block;
     margin-bottom: 8px; 
     font-size: 24px;
-    color: var( --whitecolor1);
+    color: var(--textocolorprimaria);
 }
 
 .lista-suspensa select {
@@ -18,6 +18,10 @@
     border: 1px solid var(--goldcolorforms);
     font-size: 24px;
     padding: 24px;
-    color: var(--backgroundcolor);
+    color: var( --textocolordark);
     box-sizing: border-box;
+}
+
+.lista-suspensa select:focus{
+    border-top: 4px solid red;      
 }

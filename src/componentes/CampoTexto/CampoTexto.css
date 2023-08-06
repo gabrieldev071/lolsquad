@@ -10,19 +10,24 @@
     display: block;
     margin-bottom: 8px; 
     font-size: 24px;
-    color: var( --whitecolor1);
+    color: var(--textocolorprimaria);
 }
 
 .campo-texto input {
     background-color: #FFF;
     box-shadow: 10px 10px 30px var(--backgroundcolor);
     width: 100%;
-    border: 1px solid var(--goldcolorforms);
+    border: none;
+    outline: none;
     font-size: 24px;
     padding: 24px;
-    color: #753b31;
+    color: var( --textocolordark);
     box-sizing: border-box;
        
+}
+
+.campo-texto input:focus{
+    border-bottom: 4px solid red;      
 }
 
 /* input:focus {
@@ -31,5 +36,5 @@
 
 
 .campo-texto > input::placeholder {
-    color: var(--backgroundcolor);
+    color: var( --textocolordark);
 }

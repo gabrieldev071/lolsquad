@@ -17,7 +17,8 @@ const Jogador = (props) => {
             nome={jogador.nome}
             campeao={jogador.campeao}
             imagem={jogador.imagem}
-            aoDeletar={props.aoDeletar}
+            idCard={jogador.id}
+            /* aoDeletar={props.aoDeletar} */
           />
         ))}
       </div>

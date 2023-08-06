@@ -1,12 +1,13 @@
 .player {
     text-align: center;
     padding: 32px;
+    border-top: 1px solid white;
    /*  background-color: var(--backgroundcolorRed); */
 }
 
 .player h3 {
     font-size: 32px;
-    color: var(--whitecolor1);
+    color: var(--textocolorprimaria);
     border-bottom: 4px solid;
     display: inline-block;
     padding-bottom: 8px;

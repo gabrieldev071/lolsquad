@@ -4,7 +4,7 @@
 }
 
 .jogador .cabecalho {
-    background-color:  #F0F0F0;
+    background-color:  rgb(116, 114, 114);
     border-radius: 10px 10px 0px 0px;
 }
 .jogador img {
@@ -23,15 +23,15 @@
 }
 
 .jogador .rodape h4 {
-    color: #6278F7;
-    font-size: 18px;
+    color: #212121;
+    font-size: 25px;
     line-height: 22px;
     font-weight: bold;
     margin-bottom: 8px;
 }
 
 .jogador .rodape h5 {
-    font-size: 18px;
+    font-size: 25px;
     line-height: 22px;
     color: #212121;
     padding: 0 16px;
