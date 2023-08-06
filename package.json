@@ -1,5 +1,4 @@
 {
-  "homepage": "https://gabrieldev071.github.io/lolsquad/",
   "name": "organo-lol-squads",
   "version": "0.1.1",
   "private": true,
@@ -18,9 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
